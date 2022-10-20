@@ -1,0 +1,4 @@
+﻿  main.c
+C:\Users\Mandy Farrugia\source\repos\MF_LLP\VariablesPractical\main.c(21,2): warning C4013: 'getch' undefined; assuming extern returning int
+C:\Users\Mandy Farrugia\source\repos\MF_LLP\VariablesPractical\main.c(18,1): warning C4305: 'initializing': truncation from 'double' to 'float'
+  VariablesPractical.vcxproj -> C:\Users\Mandy Farrugia\source\repos\MF_LLP\FirstProgram\Debug\VariablesPractical.exe
