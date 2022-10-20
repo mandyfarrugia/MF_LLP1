@@ -11,6 +11,8 @@ Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "VariablesPractical", "..\Va
 EndProject
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Constants", "..\Constants\Constants.vcxproj", "{E2775F88-E102-4BEE-ACD3-67D672B213CC}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "SizeOfDataTypes", "..\SizeOfDataTypes\SizeOfDataTypes.vcxproj", "{B076E52F-FEEE-4BB1-979C-5202330BE26F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -51,6 +53,14 @@ Global
 		{E2775F88-E102-4BEE-ACD3-67D672B213CC}.Release|x64.Build.0 = Release|x64
 		{E2775F88-E102-4BEE-ACD3-67D672B213CC}.Release|x86.ActiveCfg = Release|Win32
 		{E2775F88-E102-4BEE-ACD3-67D672B213CC}.Release|x86.Build.0 = Release|Win32
+		{B076E52F-FEEE-4BB1-979C-5202330BE26F}.Debug|x64.ActiveCfg = Debug|x64
+		{B076E52F-FEEE-4BB1-979C-5202330BE26F}.Debug|x64.Build.0 = Debug|x64
+		{B076E52F-FEEE-4BB1-979C-5202330BE26F}.Debug|x86.ActiveCfg = Debug|Win32
+		{B076E52F-FEEE-4BB1-979C-5202330BE26F}.Debug|x86.Build.0 = Debug|Win32
+		{B076E52F-FEEE-4BB1-979C-5202330BE26F}.Release|x64.ActiveCfg = Release|x64
+		{B076E52F-FEEE-4BB1-979C-5202330BE26F}.Release|x64.Build.0 = Release|x64
+		{B076E52F-FEEE-4BB1-979C-5202330BE26F}.Release|x86.ActiveCfg = Release|Win32
+		{B076E52F-FEEE-4BB1-979C-5202330BE26F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
