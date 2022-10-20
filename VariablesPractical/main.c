@@ -7,11 +7,11 @@ int main(void) {
 	unsigned short age = 20; //unsigned short int age = 20; works as well.
 	float height = 1.58f;
 
-	/* To print the contents of a variable of type unsigned short/unsigned short int, we use the format specifier %hd.
+	/* To print the contents of a variable of type unsigned short/unsigned short int, we use the format specifier %hu.
 	 * Use %.2f to print the contents of a float variable to 2 decimal places.
 	 * Use %.2lf to print the contents of a double variable to 2 decimal places.
 	 * You can display a double/float in any decimal place of your liking. */
-	printf("My name is %s, I am %hd years old. I am %.2f metres tall.\n", name, age, height);
+	printf("My name is %s, I am %hu years old. I am %.2f metres tall.\n", name, age, height);
 
 	getch();
 	return 0;
