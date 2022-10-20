@@ -32,9 +32,22 @@ int main(void) {
 	printf("Size of an array of characters: %zu bytes\n\n", sizeof(name));
 
 	//You can also find out the size of a data type rather than just how much space a variable takes up in memory.
-	printf("The size of the integer data type: %zu bytes", sizeof(int));
-	printf("The size of the unsigned char data type: %zu bytes", sizeof(unsigned char));
-	printf("The size of the signed char data type: %zu bytes", sizeof(signed char));
+	printf("The size of the signed short data type: %zu bytes\n", sizeof(signed short));
+	printf("The size of the unsigned short data type: %zu bytes\n", sizeof(unsigned short));
+	printf("The size of the signed integer data type: %zu bytes\n", sizeof(signed int));
+	printf("The size of the unsigned integer data type: %zu bytes\n", sizeof(unsigned int));
+	printf("The size of the signed long integer data type: %zu bytes\n", sizeof(signed long int));
+	printf("The size of the unsigned long integer data type: %zu bytes\n", sizeof(unsigned long int));
+	printf("The size of the signed long long integer data type: %zu bytes\n", sizeof(signed long long int));
+	printf("The size of the unsigned long long integer data type: %zu bytes\n", sizeof(unsigned long long int)); 
+	printf("The size of the float data type: %zu bytes\n", sizeof(float));
+	printf("The size of the float data type: %zu bytes\n", sizeof(float));
+	printf("The size of the double data type: %zu bytes\n", sizeof(double));
+	printf("The size of the double data type: %zu bytes\n", sizeof(double));
+	printf("The size of the long double data type: %zu bytes\n", sizeof(long double));
+	printf("The size of the long double data type: %zu bytes\n", sizeof(long double));
+	printf("The size of the signed char data type: %zu bytes\n", sizeof(signed char));
+	printf("The size of the unsigned char data type: %zu bytes\n", sizeof(unsigned char));
 
 	getch();
 	return 0;
