@@ -14,7 +14,7 @@ int main(void) {
 	 * 1 byte is equal to 8 bits. Therefore, float is 8-bits * 4 bytes = 32-bits and double is 8-bits * 8 bytes = 64-bits. */
 
 	/* Format specifiers are a way of displaying the contents of a variable depending on its data type.
-	 * %d is used to print the contents of variables of type int and short. 
+	 * %d is used to print the contents of variables of type int and short (specifically %hd for signed short). 
 	 * %lf is used to print the contents of variables of type double. 
 	 * %f is used to print the contents of variables of type float.
 	 * %c is used to print the contents of variables of type char.

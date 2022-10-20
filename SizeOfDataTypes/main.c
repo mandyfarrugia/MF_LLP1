@@ -33,6 +33,8 @@ int main(void) {
 
 	//You can also find out the size of a data type rather than just how much space a variable takes up in memory.
 	printf("The size of the integer data type: %zu bytes", sizeof(int));
+	printf("The size of the unsigned char data type: %zu bytes", sizeof(unsigned char));
+	printf("The size of the signed char data type: %zu bytes", sizeof(signed char));
 
 	getch();
 	return 0;
