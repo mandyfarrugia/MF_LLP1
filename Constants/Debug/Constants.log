@@ -1,0 +1,3 @@
+﻿  main.c
+C:\Users\Mandy Farrugia\source\repos\MF_LLP\Constants\main.c(15,2): warning C4013: 'getch' undefined; assuming extern returning int
+  Constants.vcxproj -> C:\Users\Mandy Farrugia\source\repos\MF_LLP\FirstProgram\Debug\Constants.exe
